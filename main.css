@@ -1,0 +1,201 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*COR DE FUNDO DA PÁGINA*/
+.backcolor {
+    background-color: #ecebe9; /*cor aplicada*/
+}
+
+/*APLICAÇÃO DE FONTE E TAMANHO DE FONTE*/
+header,
+header h1,
+section h2,
+section h3 {
+    font-family: "DM Serif Display", serif; /*fonte aplicada*/
+    font-weight: 400; /*peso da fonte*/
+}
+
+section p,
+form button {
+    font-family: "Heebo", sans-serif; /*fonte aplicada*/
+    font-weight: 400; /*peso da fonte*/
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+.title_3 {
+    font-size: 18px; /*título h3, seção "Sobre"*/
+    margin-bottom: 10px;
+}
+
+/*ALTERAÇÕES NO CABEÇALHO*/
+header {
+    padding: 16px 0; /*espaçamento interno*/
+    background-color: #A95838; /*cor de fundo*/
+    color: #f5f5f5; /*cor de texto*/
+}
+
+header nav li {
+    display: inline; /*disposição na mesma linha*/
+    margin-left: 17px; /*margem à esquerda*/
+    font-size: 19px; /*tamanho da fonte*/
+}
+
+header nav li a {
+    color: #f5f5f5; /*cor aplicada aos links do cabeçalho*/
+    text-decoration: none; /*remoção do sublinhado do link*/
+}
+
+.container,
+.line {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*ALTERAÇÕES NA SEÇÃO*/
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0; /*espaçamento interno*/
+}
+
+section h2 {
+    margin-bottom: 10px; /*margem abaixo do título da seção*/
+    color: #130c05; /*cor aplicada ao título da seção*/
+}
+
+section p {
+    margin-bottom: 8px; /*margem abaixo do parágrafo da seção*/
+    color: #231709; /*cor aplicada aos parágrafos da seção*/
+}
+
+/*SEÇÃO SOBRE*/
+#about p {
+    text-align: justify;
+}
+
+/*IMAGEM DO ATELIÊ*/
+.store {
+    height: 450px; /*tamanho*/
+    margin-right: 24px; /*margem direita*/
+}
+
+/*IMAGEM DAS REDES SOCIAIS*/
+.social-media img {
+    height: 35px; /*tamanho*/
+}
+
+.social-media li {
+    display: inline; /*disposição na mesma linha*/
+    margin-right: 15px; /*margem à direita*/
+}
+
+.social-media li a {
+    text-decoration: none; /*remoção do sublinhado do link*/
+}
+
+/*IMAGENS DOS PLANOS*/
+.images {
+    height: 300px;
+}
+
+/*EDIÇÃO GERAL DA SEÇÃO PLANOS*/
+#classes h2 {
+    padding: 15px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+
+.plans article h3,
+.plans article p {
+    margin-bottom: 14px;
+}
+
+.plans article p {
+    width: 90%;
+    text-align: justify;
+}
+
+.plans article a {
+    background-color: #A95838;
+    color: #f5f5f5;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.plans article a:hover {
+    background-color: #c97250;
+}
+
+.paragraph {
+    text-align: justify;
+    display: block;
+}
+
+/*EDIÇÃO CONTATO E FORMULÁRIO*/
+#contacts,
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    margin-right: 300px;
+}
+
+form input,
+form select,
+form button,
+.interesse {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    text-align: justify;
+}
+
+form select {
+    color: #231709;
+}
+
+form button {
+    background-color: #A95838;
+    color: #f5f5f5;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #c97250;
+}
+
+input:focus, select:focus {
+    outline-color: #A95838;
+}
+
+/*RODAPÉ*/
+footer {
+    background-color: #A95838;
+    color: #f5f5f5;
+    padding: 16px 0;
+}
