@@ -53,7 +53,10 @@ header nav li a {
 }
 
 .container,
-.line {
+.container_2,
+.container_3,
+.line,
+.paragraph {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
@@ -76,7 +79,7 @@ section {
 }
 
 section h2 {
-    margin-bottom: 10px; /*margem abaixo do título da seção*/
+    margin-bottom: 20px; /*margem abaixo do título da seção*/
     color: #130c05; /*cor aplicada ao título da seção*/
 }
 
@@ -113,26 +116,26 @@ section p {
 /*IMAGENS DOS PLANOS*/
 .images {
     height: 300px;
+    display: block;
+    margin: 0 auto;
 }
 
 /*EDIÇÃO GERAL DA SEÇÃO PLANOS*/
-#classes h2 {
-    padding: 15px;
-}
 
 .plans {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 15px;
+    display:flex;
+    justify-content: space-around; /*distribuição dos artigos com espaço entre eles*/
+    gap: 30px; /*espaçamento entre os artigos*/
 }
+
 
 .plans article h3,
 .plans article p {
-    margin-bottom: 14px;
+    margin-top: 12px;
+    margin-bottom: 15px;
 }
 
 .plans article p {
-    width: 90%;
     text-align: justify;
 }
 
@@ -149,14 +152,14 @@ section p {
 
 .paragraph {
     text-align: justify;
-    display: block;
+    margin-top: 25px;
 }
 
 /*EDIÇÃO CONTATO E FORMULÁRIO*/
 #contacts,
 .contact-methods {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .form {
